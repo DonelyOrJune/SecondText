@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.page-footer{
+  text-align: center;
+  padding-top: 90px;
+}
+
+.page-footer  .footer-info{
+  margin-top: 15px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.page-footer  .footer-info a{
+  color: #ffffff;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.page-footer  .footer-info a:last-child{
+  margin-right: 0;
+}
+
+.page-content  .page-header{
+  text-align: right;
+  font-weight: 600;
+  padding-right: 20px;
+  padding-top: -20px;
+}
+
+.page-content  .page-header a{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.page-container  .page-mainer{
+  text-align: right;
+  padding-right: 160px;
+  padding-top: 110px;
+}
+
+.page-container  .page-mainer1 img{
+  height: 80px;
+}
+
+.page-container  .page-mainer2 img{
+  height: 50px;
+}
+
+.page-container  .page-content .img1 img{
+  padding-left: 90px;
+  padding-top: 40px;
+  height: 60px;
+}
